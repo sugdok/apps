@@ -1,12 +1,198 @@
-<!DOCTYPE>
-<HTML>
+<!DOCTYPE html>
+<html>
 <head>
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<script language="javascript" type="text/javascript" src="jquery.js"></script>
 </head>
+<style>
 
-<body>
-<h1>BICOL JL</h1></ br>
-<h2>Agri Corporation</h2>
+   
+
+</style>
+<body> 
+<div data-role="page" id="pageone" >
+  <div data-role="header">
+    <h1>IT Department ( IP MAP )</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+  <p>Welcome to bicol jl ip list</>
+    <div data-role="collapsible" >
+      <h1>Bicol JL Agri Corporation</h1>
+      <!--<p>I'm the expanded content.</p>-->
+	  <div data-filter="true">
+      <div data-role="collapsible" >
+        <h1>Audit Deparment</h1>
+		<ul data-role="listview" data-inset="true" data-filter="true" data-icon="info">
+			<li data-icon="false"> <a href="#BillyQuintino" data-rel="popup"
+			class="ui-li ui-li-inline ui-corner-all ui-icon-check ui-li-icon-left">Billy Quintino</a></li>
+				<div data-role="popup" id="BillyQuintino" class="ui-content" style="min-width:250px;">
+					<form method="post" action="demoform.asp">
+					<div>
+					<h1>Billy's Information</h1>
+					<p>Assigned IP: 192.168.11.2</p>
+					<p>Company Name: Bicol JL Agri Corp.</p>
+          <!--<label for="usrnm" class="ui-hidden-accessible">IP: 11.2</label>
+          <input type="text" name="user" id="usrnm" placeholder="Username">
+          <label for="pswd" class="ui-hidden-accessible">Password:</label>
+          <input type="password" name="passw" id="pswd" placeholder="Password">
+          <label for="log">Keep me logged in</label>
+          <input type="checkbox" name="login" id="log" value="1" data-mini="true">
+          <input type="submit" data-inline="true" value="back">-->
+		  
+					</div>
+					</form>
+				</div>
+			<li data-icon="false"><a href="#ErvinOlleta"data-rel="popup" 
+			class="ui-li ui-li-inline ui-corner-all ui-icon-check ui-li-icon-left">Ervin Olleta</a></li>
+				<div data-role="popup" id="ErvinOlleta" class="ui-content" style="min-width:250px;">
+					<form method="post" action="demoform.asp">
+					<div>
+						<h1>Ervin's Information</h1>
+						<p>Assigned IP: 192.168.11.2</p>
+						<p>Company Name: Bicol JL Agri Corp.</p>
+					</div>
+					</form>
+				</div>
+			<li data-icon="false"><a href="#HermieHerno"data-rel="popup" 
+			class="ui-li ui-li-inline ui-corner-all ui-icon-check ui-li-icon-left">Hermie Herno</a></li>
+				<div data-role="popup" id="HermieHerno" class="ui-content" style="min-width:250px;">
+					<form method="post" action="demoform.asp">
+					<div>
+						<h1>Hermie's Information</h1>
+						<p>Assigned IP: 192.168.11.2</p>
+						<p>Company Name: Bicol JL Agri Corp.</p>
+					</div>
+					</form>
+				</div>
+			<li data-icon="false"><a href="#MerlynLagdaan"data-rel="popup" 
+			class="ui-li ui-li-inline ui-corner-all ui-icon-check ui-li-icon-left">Merlyn Lagdaan</a></li>
+				<div data-role="popup" id="MerlynLagdaan" class="ui-content" style="min-width:250px;">
+					<form method="post" action="demoform.asp">
+					<div>
+						<h1>Merlyn's Information</h1>
+						<p>Assigned IP: 192.168.11.2</p>
+						<p>Company Name: Bicol JL Agri Corp.</p>
+					</div>
+					</form>
+				</div>
+			<li data-icon="false"><a href="#YhetAvila"data-rel="popup" 
+			class="ui-li ui-li-inline ui-corner-all ui-icon-check ui-li-icon-left">Yhet Avila</a></li>
+				<div data-role="popup" id="YhetAvila" class="ui-content" style="min-width:250px;">
+					<form method="post" action="demoform.asp">
+					<div>
+						<h1>Yhet's Information</h1>
+						<p>Assigned IP: 192.168.11.2</p>
+						<p>Company Name: Bicol JL Agri Corp.</p>
+					</div>
+					</form>
+				</div>
+			
+		</ul>
+      </div>
+	  <div data-role="collapsible">
+        <h1>CCD Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>CSD Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Disbursing Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Finance Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Genear Manager</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>HR Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Legal Departmen</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Motorpool Department</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Property Custodian</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Purchasing Department</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>System Administrator</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Warehouse Department</h1>
+      </div>
+	  </div>
+    </div>
+	<div data-role="collapsible">
+      <h1>Vast Animal Nutrition</h1>
+      <!--<p>I'm the expanded content.</p>-->
+      <div data-role="collapsible">
+        <h1>CSD Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Disbursing Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Graphic Artist</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Marketing Deparment</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Plant Manager</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Production Department</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Purchasing department</h1>
+      </div>
+	  <div data-role="collapsible">
+        <h1>Warehouse Department</h1>
+      </div>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>Bicol JL Agri Corporation</h1>
+  </div>
+</div> 
+<!-------------------------------------------------------------------->
+<!--<div  data-role="page" id="BicolJL" >
+
+  <div data-role="header">
+	<a href="#pageone" data-icon="back" data-rel="back" title="Go back">Back</a>
+    <h2>IT Specialist IP MAP</h2>
+  </div>
+  
+  <div data-role="main" class="ui-content">
+    <h2>Select Department:</h2>
+    <ul data-role="listview" data-inset="true" data-filter="true">
+		<li data-icon="false"><a href="#">Audit</a></li>
+		<li data-icon="false"><a href="#">CCD</a></li>
+		<li data-icon="false"><a href="#">CSD</a></li>
+		<li data-icon="false"><a href="#">Disbursing</a></li>
+		<li data-icon="false"><a href="#">Finance</a></li>
+		<li data-icon="false"><a href="#">GM</a></li>
+		<li data-icon="false"><a href="#">HR</a></li>
+		<li data-icon="false"><a href="#">Property Custodian</a></li>
+		<li data-icon="false"><a href="#">Purchasing</a></li>
+		<li data-icon="false"><a href="#">System Admin</a></li>
+		<li data-icon="false"><a href="#">Warehouse</a></li>
+    </ul>
+  </div>
+  <div data-role="footer">
+    <h1>Footer Text</h1>
+  </div>
+
+</div>-->
 </body>
-
-</HTML>
+</html>
